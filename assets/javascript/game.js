@@ -10,12 +10,20 @@ let letterBlanks =[ ];
 
 let wordChoice = () => {
     for (let i = 0; i < chosenWord.length; i++) {
-    letterBlanks[i] = "_";
+    letterBlanks[i] = "_ ,";
     }
     return letterBlanks;
     let numberofLettersleft = randomWord.length;
     }
-    console.log(wordChoice());
+console.log(wordChoice());
+    // document.getElementById("chosenWord").innerHTML= wordChoice();
+
+
+
+
+
+
+    
 // while (numberofLettersleft > 0) {
 //     function updateDisplay() {
 //     alert(letterBlanks.join(" "));
@@ -31,17 +39,12 @@ let wordChoice = () => {
 
 
     //   // Get a guess from the player
-    //   var guess = prompt("Guess a letter, or click Cancel to stop playing.");
+    //   var guess = prompt("Guess a letter");
     //   if (guess === null) {
-    //     // Exit the game loop
-    //     break;
-    //   } else if (guess.length !== 1) {
-    //     alert("Please enter a single letter.");
-    //   } else {
-    //     // Update the game state with the guess
-    //     for (var j = 0; j < word.length; j++) {
-    //       if (word[j] === guess) {
-    //         answerArray[j] = guess;
+    //
+    //     for (let i = 0; i < word.length; j++) {
+    //       if (word[i] === guess) {
+    //         answerArray[i] = guess;
     //         remainingLetters--;
     //       }
     //     }
@@ -49,10 +52,7 @@ let wordChoice = () => {
 
     // // The end of the game loop
     // }
-
-    // // Show the answer and congratulate the player
-    // alert(answerArray.join(" "));
-    // alert("Good job! The answer was " + word);
+;
 
 
 
@@ -99,31 +99,6 @@ let wordChoice = () => {
 
 
 
-////////////////////////////////////////////////////////////// Group Work 
-// alert(wordChoice);
-
-// let chosenWordLength = chosenWord.length() = 3;
-// alert(chosenWordLength);
-// let dashWordLength = [];
-
-// for(let dashCounter = 0; dashCounter >= chosenWordLength; dashCounter++) {
-//     das
-// }
-
-
-
-
-
-
-// console.log (wordBank.word) 
-
-// function getLetterArray();
-
-
-
-// var words = [
-//     ""
-// ]
 
 
 
